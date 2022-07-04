@@ -1,1 +1,5 @@
 data filter=lfs diff=lfs merge=lfs -text
+data/casting_data/train/def_front/*.jpeg filter=lfs diff=lfs merge=lfs -text
+data/casting_data/train/ok_front/*.jpeg filter=lfs diff=lfs merge=lfs -text
+data/casting_data/test/ok_front/*.jpeg filter=lfs diff=lfs merge=lfs -text
+data/casting_data/test/def_front/*.jpeg filter=lfs diff=lfs merge=lfs -text
